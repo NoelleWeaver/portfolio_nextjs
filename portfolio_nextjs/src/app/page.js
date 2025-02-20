@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 import { useState, useEffect } from "react";
+import Projects from "./Projects"; // Import the Server Component
 
 export default function Home() {
   const [text, setText] = useState(""); 
@@ -38,7 +39,7 @@ export default function Home() {
             <Image className="ml-5" src="/images/instagram.png" alt="Instagram Icon" width={30} height={30} />
           </Link>
           <Link className="hover:scale-110 duration-300 ease-in-out" href="/google.com">
-          <Image className="ml-5" src="/images/social.png" alt="Facebook Icon" width={30} height={30} />
+            <Image className="ml-5" src="/images/social.png" alt="Facebook Icon" width={30} height={30} />
           </Link>
         </div>
         {/* Name section */}
@@ -60,12 +61,7 @@ export default function Home() {
       </div>
       {/* Projects */}
       <p className="text-7xl font-semibold ml-[70%] mt-[8rem] uppercase">Projects</p>
-      {/* Project cards */}
-      <div className="flex flex-wrap gap-[2rem] w-[80vw] m-[5%] ml-[10%] ">
-        <div className="flex flex-col w-[20vw] h-[25vh] bg-[#ACFFAF] rounded-[20px] hover:scale-110 duration-300 ease-in-out"></div>
-        <div className="flex flex-col w-[20vw] h-[25vh] bg-[#ACFFAF] rounded-[20px] hover:scale-110 duration-300 ease-in-out"></div>
-        <div className="flex flex-col w-[20vw] h-[25vh] bg-[#ACFFAF] rounded-[20px] hover:scale-110 duration-300 ease-in-out"></div>
-      </div>
+      <Projects />
       <footer className=" bg-[#ACFFAF]">
         <p className="text-6xl font-semibold ml-[4rem] mt-4">Noelle Weaver</p>
         <p className="ml-[4rem] mt-2 flex"> <Image className="mr-[3px]" src="/images/email.png" alt="Facebook Icon" width={25} height={5} />noelle.e.weaver@gmail.com</p>
