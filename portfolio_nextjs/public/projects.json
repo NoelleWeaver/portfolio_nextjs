@@ -3,6 +3,7 @@
         "id": 1,
         "title": "Drifted",
         "image": "https://res.cloudinary.com/dynkv0p8x/image/upload/v1740082504/Screenshot_2025-02-20_130816_zoxj7h.png",
+        "projectURL": "https://github.com/NoelleWeaver/Drifted",
         "picArray": [
             "https://res.cloudinary.com/dynkv0p8x/image/upload/v1740082503/Screenshot_2025-02-20_130835_lyyemm.png",
             "https://res.cloudinary.com/dynkv0p8x/image/upload/v1740082503/Screenshot_2025-02-20_130850_fv99gg.png",
@@ -12,13 +13,15 @@
     {
         "id": 2,
         "title": "Match Pet Adoption",
-        "image": "",
+        "image": "https://res.cloudinary.com/dynkv0p8x/image/upload/v1740082503/Screenshot_2025-02-20_130835_lyyemm.png",
+        "projectURL": "https://github.com/NoelleWeaver/Match-Pet-Adoption",
         "picArray": []
     },
     {
         "id": 3,
         "title": "React Component Library",
         "image": "https://res.cloudinary.com/dynkv0p8x/image/upload/v1740083865/Screenshot_2025-02-20_133508_wn2s4b.png",
+        "projectURL": "https://github.com/NoelleWeaver/react_component",
         "picArray": [
             "https://res.cloudinary.com/dynkv0p8x/image/upload/v1740083863/Screenshot_2025-02-20_133719_japvon.png",
             "https://res.cloudinary.com/dynkv0p8x/image/upload/v1740083862/Screenshot_2025-02-20_133701_grmscp.png"
